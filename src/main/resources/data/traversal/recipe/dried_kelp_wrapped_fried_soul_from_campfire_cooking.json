@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "traversal:kelp_wrapped_soul"
+  },
+  "result": {
+    "id": "traversal:dried_kelp_wrapped_fried_soul"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "traversal:block/nether_oil_top",
+    "side": "traversal:block/nether_oil_sides",
+    "top": "traversal:block/nether_oil_top"
+  }
+}

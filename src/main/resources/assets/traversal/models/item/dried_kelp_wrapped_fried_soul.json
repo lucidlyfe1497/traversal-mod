@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "traversal:item/dried_kelp_wrapped_fried_soul"
+  }
+}

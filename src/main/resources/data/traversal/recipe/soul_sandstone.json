@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:soul_sand"
+    },
+    "o": {
+      "item": "traversal:shattered_soul"
+    }
+  },
+  "pattern": [
+    "###",
+    "#o#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "traversal:soul_sandstone"
+  }
+}

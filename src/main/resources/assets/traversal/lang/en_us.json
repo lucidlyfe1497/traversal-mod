@@ -1,0 +1,15 @@
+{
+  "item:traversal.shattered_soul": "Shattered Soul",
+  "item.traversal.dried_kelp_wrapped_fried_soul": "Dried Kelp Wrapped Fried Soul",
+  "item.traversal.kelp_wrapped_soul": "Kelp Wrapped Soul",
+  "item.traversal.bucket_of_nether_oil": "Bucket of Nether Oil",
+  "item.traversal.etching_stick": "Etching Stick",
+
+  "block.traversal.soul_sandstone": "Soul Sandstone",
+  "block.traversal.charged_soul_sand": "Charged Soul Sand",
+  "block.traversal.nether_oil": "Nether Oil",
+  "block.traversal.crystallized_souls": "Crystallized Souls",
+
+  "itemgroup.traversal.items": "More Souls Items",
+  "itemgroup.traversal.blocks": "More Souls Blocks"
+}
