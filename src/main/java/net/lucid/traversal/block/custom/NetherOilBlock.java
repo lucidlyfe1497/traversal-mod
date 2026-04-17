@@ -4,6 +4,7 @@ import net.lucid.traversal.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -16,6 +17,7 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
+import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 
@@ -61,6 +63,8 @@ public class NetherOilBlock extends Block {
         }
     }
 
-
-
+    @Override
+    public void onEntityLand(BlockView world, Entity entity) {
+        super.onEntityLand(world, entity);
+    }
 }

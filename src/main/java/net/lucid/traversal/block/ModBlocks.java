@@ -30,7 +30,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(1, 3),
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.SOUL_SAND)));
 
-    public static final Block NETHER_OIL = registerBlock("nether_oil",
+    public static final Block NETHER_OIL_BLOCK = registerBlock("nether_oil",
             new NetherOilBlock(
                     AbstractBlock.Settings.create().strength(0.5f)));
 
@@ -51,7 +51,7 @@ public class ModBlocks {
             entries.add(SOUL_SANDSTONE);
             entries.add(CHARGED_SOUL_SAND);
             entries.add(CRYSTALLIZED_SOULS);
-            entries.add(NETHER_OIL);
+            entries.add(NETHER_OIL_BLOCK);
         });
     }
 
