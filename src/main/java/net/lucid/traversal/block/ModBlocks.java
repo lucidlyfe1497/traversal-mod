@@ -3,7 +3,7 @@ package net.lucid.traversal.block;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.lucid.traversal.Traversal;
 import net.lucid.traversal.block.custom.ChargedSoulSand;
-import net.lucid.traversal.block.custom.NetherOil;
+import net.lucid.traversal.block.custom.NetherOilBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -31,7 +31,7 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.SOUL_SAND)));
 
     public static final Block NETHER_OIL = registerBlock("nether_oil",
-            new NetherOil(
+            new NetherOilBlock(
                     AbstractBlock.Settings.create().strength(0.5f)));
 
     private static void registerBlockItem(String name, Block block){

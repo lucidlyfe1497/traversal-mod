@@ -19,9 +19,9 @@ import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 
-public class NetherOil extends Block {
+public class NetherOilBlock extends Block {
 
-    public NetherOil(Settings settings) {
+    public NetherOilBlock(Settings settings) {
         super(settings);
     }
 
