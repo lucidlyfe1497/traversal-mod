@@ -1,4 +1,4 @@
-package net.lucid.traversal.mixin;
+package net.lucid.mixin;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -15,7 +15,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 public class SculkVeinMixin {
     @Inject(method = "onBlockAdded", at = @At("TAIL"))
-    private void chargeSoulSand(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify, CallbackInfo ci) throws InterruptedException {
+    private void chargeSoulSandFrom(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify, CallbackInfo ci) throws InterruptedException {
          if (state.isOf(Blocks.SCULK_VEIN)) {
             for (Direction direction : Direction.values()) {
                 BlockPos neighborPos = pos.offset(direction);

@@ -10,6 +10,6 @@
   "block.traversal.nether_oil": "Nether Oil",
   "block.traversal.crystallized_souls": "Crystallized Souls",
 
-  "itemgroup.traversal.items": "More Souls Items",
-  "itemgroup.traversal.blocks": "More Souls Blocks"
+  "itemgroup.traversal_items": "More Souls Items",
+  "itemgroup.traversal_blocks": "More Souls Blocks"
 }

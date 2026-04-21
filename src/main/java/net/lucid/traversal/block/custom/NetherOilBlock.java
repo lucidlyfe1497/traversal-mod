@@ -63,8 +63,6 @@ public class NetherOilBlock extends Block {
         }
     }
 
-    @Override
-    public void onEntityLand(BlockView world, Entity entity) {
-        super.onEntityLand(world, entity);
-    }
+    //Commit to the oil explosion to meke brimstone
+
 }
